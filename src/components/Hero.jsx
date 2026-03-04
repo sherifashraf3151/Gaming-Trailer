@@ -4,6 +4,7 @@ import { TiLocationArrow } from "react-icons/ti";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
+import { TbHandFinger } from "react-icons/tb";
 
 // To ScrollTrigger to work, we need to register it with GSAP
 gsap.registerPlugin(ScrollTrigger);
@@ -144,6 +145,7 @@ const Hero = () => {
             className="absolute left-0 top-0 size-full object-cover object-center"
             onLoadedData={handleVideoload}
           />
+          <TbHandFinger className="absolute-center absolute z-50 size-6 md:size-12 text-yellow-300 animate-bounce" />
         </div>
         {/* End Video */}
 

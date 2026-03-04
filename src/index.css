@@ -10,6 +10,9 @@ body {
   background-color: #dfdff0;
   font-family: "General Sans", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 @layer base {
   @font-face {
